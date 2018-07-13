@@ -1,0 +1,163 @@
+/*
+********
+********
+********
+*/
+/* >> BOX: START
+***************************************************************************************************************/
+
+/* # Notes about Box */
+/*
+	- Box can be used with Flush Grid, or any sized version of Bootstrap's grid
+	- Box's backgrounds by defualt are opaque and white
+	- Box's need absolute heights if they are to be aligned flush with each other
+
+*/
+
+/* # Component: Box */
+.sf-box {
+	display: block;
+
+	margin: 0;
+	padding: 0;
+
+	box-sizing: content-box;
+
+	background-clip: padding-box;
+
+	background-color: #ffffff;
+}
+
+
+/* # Modifiers for Box */
+
+
+/* 	## Rounded corners */
+	.sf-box--rounded-cornders-15px {
+		border-radius: 15px !important;
+	}
+
+
+/* 	## Background color */
+	.sf-box--brightness-98 {
+		background-color: #fafafa;
+	}
+	.sf-box--brightness-96 {
+		background-color: #f5f5f5;
+	}
+	.sf-box--brightness-94 {
+		background-color: #f0f0f0;
+	}
+	.sf-box--brightness-92 {
+		background-color: #ebebeb;
+	}
+	.sf-box--brightness-90 {
+		background-color: #e5e5e5;
+	}
+	.sf-box--brightness-88 {
+		background-color: #e0e0e0;
+	}
+	.sf-box--brightness-86 {
+		background-color: #dbdbdb;
+	}
+	.sf-box--brightness-84 {
+		background-color: #d6d6d6;
+	}
+	.sf-box--brightness-82 {
+		background-color: #d1d1d1;
+	}
+	.sf-box--brightness-80 {
+		background-color: #cccccc;
+	}
+
+/* 	## Padding */
+	/* Relative padding */
+	.sf-box--padding-size-1 {
+		padding: 5px;
+	}
+	.sf-box--padding-size-2 {
+		padding: 10px;
+	}
+	.sf-box--padding-size-3 {
+		padding: 15px;
+	}
+	.sf-box--padding-size-4 {
+		padding: 20px;
+	}
+	.sf-box--padding-size-5 {
+		padding: 25px;
+	}
+	.sf-box--padding-size-6 {
+		padding: 30px;
+	}
+	.sf-box--padding-size-7 {
+		padding: 35px;
+	}
+	.sf-box--padding-size-8 {
+		padding: 40px;
+	}
+	.sf-box--padding-size-9 {
+		padding: 45px;
+	}
+
+
+	/* Absolute padding */
+	.sf-box--padding-size-5px {
+		padding: 5px;
+	}
+	.sf-box--padding-size-15px {
+		padding: 15px;
+	}
+	.sf-box--padding-size-30px {
+		padding: 30px;
+	}
+	.sf-box--padding-size-45px {
+		padding: 45px;
+	}
+
+
+
+
+/* # Types of Boxes */
+/* Note: Remember when using a "type", you apply both the base component
+   and the typed component. */
+
+.sf-edged-box {
+	border-width: 1px;
+	border-style: solid;
+	border-width: 1px;
+
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* # Accessories for Box */
+/*   Meant to wrap a set of boxes */
+.sf-box-edge {
+	border-width: 1px;
+	border-style: solid;
+	border-width: 1px;
+
+	border-color: rgba(0, 0, 0, 0.1);
+
+	box-sizing: content-box;
+	background-clip: padding-box;
+
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+/* BOX: END
+***************************************************************************************************************/
+/*
+********
+********
+********
+*/

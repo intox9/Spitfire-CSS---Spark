@@ -1,0 +1,101 @@
+/* Notes about labels */
+/*
+	- Labels are to be thought of as different from headings
+		- Labels are used as a way of "labeling" or "tagging" something
+		- We will institute a level based labeling system, similar to the level system of headings
+		- Labels will have both "levels" and "stylistic sizes", just like headings.
+			The only difference, is that labels do NOT have a native HTML which reflects
+			the native level system in which headings has. For this reason, we'll create classes
+			to refect such levels.
+
+*/
+
+/* # Labels */
+.sf-label {
+	/* Specify the font family. Commented out for the moment */
+	/* font-family: "Raleway-Medium"; */
+
+	margin: 0;
+	padding: 0;
+
+	color: rgba(0,0,0,1);
+}
+
+	/* ## Label knockout mode */
+		/* ### Positive label */
+
+		/* ### Negative label */
+		.sf-inverted-label {
+			color: rgba(255,255,255,1);
+		}
+
+	/* ## Label sizes */
+		/* ### Default size */
+		.sf-label {
+			font-size: 16px;
+
+			/* Note: later on we can set this to 0 and do
+			a .sf-label + .sf-label { margin-top:3px }.
+			We should do it across the board */
+			margin-top: 3px;
+			line-height: 180%;
+		}
+
+		/* ### Small size */
+		.sf-label.sf-label--small {
+			font-size: 13px;
+
+			/* Note: later on we can set this to 0 and do
+			a .sf-label + .sf-label { margin-top:3px }.
+			We should do it across the board */
+			margin-top: 3px;
+			line-height: 180%;
+		}
+
+
+	/* ## Label levels */
+		/* To be done */
+
+
+	/* ## Label encasings */
+		/* Default encasing */
+		.sf-label.sf-label--encased {
+			background-color: rgba(0,0,0,.15);
+			border-radius: 4px;
+
+			padding: 9px;
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+		/* Inverted encasing */
+		.sf-label.sf-label--inverted-encased {
+			background-color: rgba(255,255,255,.67);
+			border-radius: 4px;
+			color: rgba(255,255,255,1);
+
+			padding: 9px;
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+
+		/* Light opaque encasing */
+		.sf-label.sf-label--encased-light {
+			background-color: rgba(255,255,255,1);
+			border-radius: 4px;
+			color: rgba(0,0,0,1);
+
+			padding: 9px;
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+
+		/* Dark opaque encasing */
+		.sf-label.sf-label--encased-dark {
+			background-color: rgba(0,0,0,1);
+			border-radius: 4px;
+			color: rgba(255,255,255,1);
+
+			padding: 9px;
+			padding-left: 12px;
+			padding-right: 12px;
+		}

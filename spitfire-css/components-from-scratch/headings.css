@@ -1,0 +1,121 @@
+/*
+	Note: In here, we're modifying the heading color by a means of mixing in
+	two different approaches. It's to be determined which will make most
+	sense in the long run.
+
+	- Way 1: via the sf-inverted-skin
+	- Way 2: via what we are calling a knockout mode, and having specific
+		classes created for those knockout modes.
+
+		For example, the following two approaches produce a heading
+		with the same color:
+
+			Approach 1:
+			.sf-inverted-heading {
+				color: rgba(255,255,255,1);
+			}
+
+
+			Approach 2:
+			.sf-inverted-skin h1,
+			.sf-inverted-skin h2,
+			.sf-inverted-skin h3,
+			.sf-inverted-skin h4,
+			.sf-inverted-skin h5,
+			.sf-inverted-skin h6 {
+				color: rgba(255,255,255,1);
+
+			}
+
+*/
+
+
+/* # Headings */
+.sf-skin h1,
+.sf-skin h2,
+.sf-skin h3,
+.sf-skin h4,
+.sf-skin h5,
+.sf-skin h6 {
+
+	/* Specify the font family. Commented out for the moment */
+	/* font-family: "Raleway-ExtraBold"; */
+
+	margin: 0;
+	padding: 0;
+
+	color: rgba(0,0,0,1);
+}
+
+.sf-inverted-skin h1,
+.sf-inverted-skin h2,
+.sf-inverted-skin h3,
+.sf-inverted-skin h4,
+.sf-inverted-skin h5,
+.sf-inverted-skin h6 {
+
+	margin: 0;
+	padding: 0;
+
+	color: rgba(255,255,255,1);
+}
+
+
+	/* ## Heading knockout mode */
+		/* ### Positive headings */
+
+		/* ### Negative headings */
+		.sf-inverted-heading {
+			color: rgba(255,255,255,1);
+		}
+
+	/* ## Heading sizes */
+		/* ### Default size */
+		.sf-skin h1 {
+			font-size: 48px;
+			margin-top: 72px;
+			line-height: 105%;
+		}
+		.sf-skin h2 {
+			font-size: 28px;
+			margin-top: 60px;
+			line-height: 110%;
+		}
+		.sf-skin h3 {
+			font-size: 18px;
+			margin-top: 28px;
+			line-height: 120%;
+		}
+
+		/* ### Small size */
+		.sf-small-heading {
+			/* Specify the font family. Commented out for the moment */
+			/* font-family: "Raleway-SemiBold" !important; */
+		}
+
+		h1.sf-small-heading {
+			font-size: 24px;
+			margin-top: 60px;
+			line-height: 120%;
+		}
+		h2.sf-small-heading {
+			font-size: 18px;
+			margin-top: 28px;
+			line-height: 140%;
+		}
+		h3.sf-small-heading {
+			font-size: 16px;
+			margin-top: 24px;
+			line-height: 160%;
+		}
+
+	/* ## Paragraphs nested under headings */
+	.sf-skin h1 + p {
+		margin-top: 8px;
+	}
+	.sf-skin h2 + p {
+		margin-top: 12px;
+	}
+	.sf-skin h3 + p {
+		margin-top: 16px;
+	}

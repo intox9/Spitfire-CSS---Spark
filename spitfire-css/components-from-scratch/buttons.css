@@ -1,0 +1,107 @@
+/*
+********
+********
+********
+*/
+/* >> PILL BUTTON: START
+***************************************************************************************************************/
+
+.sf-pill-button {
+	background-color: #ededed;
+	border-radius: 500px;
+	color: #009bdf;
+
+	font-family:"Lato-Regular";
+	text-align: center;
+
+
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 22px;
+	padding-right: 22px;
+
+	margin-top: 2px;
+
+	text-decoration: none;
+}
+
+.sf-pill-button:hover {
+	text-decoration: none;
+}
+
+
+/* # Style modifiers by Color */
+.sf-pill-button.sf-pill-button--blue {
+	background-color: #0081d2;
+	color: #ffffff;
+}
+.sf-pill-button.sf-pill-button--blue:hover {
+	background-color: #008dd8;
+}
+
+
+.sf-pill-button.sf-pill-button--white {
+	background-color: #ffffff;
+	color: #0081d2;
+}
+.sf-pill-button.sf-pill-button--white:hover {
+	background-color: #e2e2e2;
+}
+
+
+
+
+
+
+
+/* # Sizes */
+.sf-pill-button--size-1 {
+
+}
+
+
+
+.sf-pill-button.sf-pill-button--size-1 {
+
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 13px;
+	padding-right: 13px;
+
+}
+
+
+
+.sf-pill-button--size-2 {
+
+}
+
+.sf-pill-button--size-3 {
+
+}
+
+/* # Shades (1 = least dark) */
+.sf-pill-button--dark-shade-1 {
+
+}
+
+.sf-pill-button--dark-shade-2 {
+
+}
+
+.sf-pill-button--dark-shade-3 {
+
+}
+
+
+
+/* PILL BUTTON: END
+***************************************************************************************************************/
+/*
+********
+********
+********
+*/

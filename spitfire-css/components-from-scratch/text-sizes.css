@@ -1,0 +1,40 @@
+/*
+	Text Sizes are meant to be used on any kind of text.
+	This is especially useful for text that is hard to categorize by some
+	semantic category.
+		- For example, if the text is not a heading, not a paragraph,
+		  not a label, not lead text, etc.
+
+ */
+
+.sf-text-size-0 {
+	font-size: 14px !important;
+}
+
+.sf-text-size-1 {
+	font-size: 16px !important;
+}
+
+
+.sf-text-size-2 {
+	font-size: 18px !important;
+}
+
+.sf-text-size-3 {
+	font-size: 20px !important;
+}
+
+.sf-text-size-4 {
+	font-size: 28px !important;
+}
+
+.sf-text-size-5 {
+	font-size: 35px !important;
+}
+
+
+.sf-text-size-6 {
+	font-size: 48px !important;
+}
+
+

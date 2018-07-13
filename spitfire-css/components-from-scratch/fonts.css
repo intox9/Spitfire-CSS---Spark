@@ -1,0 +1,113 @@
+	/* >> FONT EMBEDDING AND DEFINITIONS: START
+	***************************************************************************************************************/
+
+	/*
+	# Raleway */
+	/*
+	@font-face {
+		font-family:"Raleway-Black";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-Black.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-Bold";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-Bold.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-ExtraBold";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-ExtraBold.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-ExtraLight";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-ExtraLight.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-Light";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-Light.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-Medium";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-Medium.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-Regular";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-Regular.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-SemiBold";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-SemiBold.otf");
+	}
+
+	@font-face {
+		font-family:"Raleway-Thin";
+		src: url("../fonts/Raleway-v4020/Raleway-v4020-Thin.otf");
+	}
+	*/
+
+
+	/*
+		## Font family definition  */
+		/*
+		.sf-raleway-black {
+			font-family: "Raleway-Black" !important;
+		}
+
+		.sf-raleway-bold {
+			font-family: "Raleway-Bold" !important;
+		}
+
+		.sf-raleway-extra-bold {
+			font-family: "Raleway-ExtraBold" !important;
+		}
+
+		.sf-raleway-extra-light {
+			font-family: "Raleway-ExtraLight" !important;
+		}
+
+		.sf-raleway-light {
+			font-family: "Raleway-Light" !important;
+		}
+
+		.sf-raleway-medium {
+			font-family: "Raleway-Medium" !important;
+		}
+
+		.sf-raleway-regular {
+			font-family: "Raleway-Regular" !important;
+		}
+
+		.sf-raleway-semi-bold {
+			font-family: "Raleway-SemiBold" !important;
+		}
+
+		.sf-raleway-thin {
+			font-family: "Raleway-Thin" !important;
+		}
+		*/
+
+
+	/*
+	strong {
+		font-family: "Raleway-Black";
+		font-weight: normal;
+	}
+
+	.sf-lining-figures {
+		font-feature-settings: "lnum";
+	}
+	*/
+
+
+	/* FONT EMBEDDING AND DEFINITIONS: END
+	***************************************************************************************************************/
+	/*
+	********
+	********
+	********
+	*/

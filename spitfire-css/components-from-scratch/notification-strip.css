@@ -1,0 +1,54 @@
+/* # Description:
+	Notification Strip
+	Full width strip, used for notifying the user of important information
+
+*/
+
+.sf-notification-strip {
+	display: block;
+
+	padding: 0;
+	padding-top: 7px;
+	padding-bottom: 7px;
+
+	margin: 0;
+	margin-bottom: 15px;
+
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+
+
+
+/* # Modifiers by meaning */
+
+	.sf-notification-strip.sf-notification-strip--primary {
+		display: block;
+
+		padding: 0;
+		padding-top: 7px;
+		padding-bottom: 7px;
+
+		margin: 0;
+		margin-bottom: 15px;
+
+		background-color: #0081d2;
+		color: #ffffff;
+	}
+
+	.sf-notification-strip.sf-notification-strip--plain {
+		display: block;
+
+		padding: 0;
+		padding-top: 7px;
+		padding-bottom: 7px;
+
+		margin: 0;
+		margin-bottom: 15px;
+
+		background-color: #f2f2f2;
+		color: #545454;
+	}
+

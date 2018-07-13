@@ -1,0 +1,142 @@
+/* # Description:
+	Rounded squares that use flexbox for their layout.
+	Default properties:
+		- White background
+		- Subtle dark edge
+		- Rounded cornders
+*/
+
+
+/*
+	<div class="sf-flexy-pill-pod">
+		<div class="sf-flexy-pill-pod-heading sf-flexy-pill-pod-heading--primary">
+			Here's the heading
+		</div>
+
+		<div class="sf-flexy-pill-pod-body">
+			Here's the body
+		</div>
+	</div>
+
+*/
+
+
+
+
+/* # Add-on parts for flexy pill-pod */
+
+/* 	## Link wrapper */
+	.sf-flexy-pill-pod-link-wrapper:hover {
+		text-decoration: none;
+	}
+
+
+/* # Flexy pill-pod */
+.sf-flexy-pill-pod {
+	flex-shrink: 1;
+	flex-grow: 1;
+	padding: 0px;
+	min-width: 365px;
+
+	max-width: 365px;
+	background-color: #ffffff;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgba(0,0,0,.04);
+	border-radius: 15px;
+
+	background-clip: padding-box;
+
+	margin: 5px;
+
+	min-height: 140px;
+
+	color: #545454;
+
+	transition: all .15s ease-out;
+
+}
+
+@media (max-width: 769px) {
+
+
+	.sf-flexy-pill-pod {
+
+
+		max-width: initial;
+		min-width: initial;
+
+		margin-left: -25px;
+		margin-right: -25px;
+
+	}
+
+	.sf-flexy-pill-pod-link-wrapper {
+		display: block;
+		width: 100%;
+	}
+
+}
+
+
+.sf-flexy-pill-pod.sf-flexy-pill-pod--clickable:hover {
+
+	/*
+	background-color: #e2e2e2;
+	border-color: rgba(0,0,0,.08);
+	*/
+
+	border-style: solid;
+
+	/* Blue 0081d2 */
+	/* border-color: #0081d2; */
+
+	border-color: rgba(0, 129, 210, .35);
+	border-width: 2px;
+
+	/* background-color: #0081d2; */
+
+}
+
+
+
+
+
+/* # Flexy pill-pod heading */
+.sf-flexy-pill-pod-heading {
+	display: block;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	padding: 15px;
+
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+	background-color: #ffffff;
+}
+
+/* ## By Meaning (Note: This is a part-of type relationship ) */
+.sf-flexy-pill-pod-heading.sf-flexy-pill-pod-heading--primary {
+	background-color: #0081d2;
+	color: #ffffff;
+}
+	.sf-flexy-pill-pod-heading.sf-flexy-pill-pod-heading--primary:hover {
+		/*background-color: #0067c1;*/
+	}
+
+
+/* # Flexy pill-pod body */
+.sf-flexy-pill-pod-body {
+	display: block;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 15px;
+
+	background-color: #ffffff;
+}
+
+
+.sf-flexy-pill-pod-heading + .sf-flexy-pill-pod-body {
+
+	padding-top: 0;
+}

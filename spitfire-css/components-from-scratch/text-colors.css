@@ -1,0 +1,37 @@
+/* # Text color by color */
+
+
+/* # Text color by meaning */
+/* Note:
+	- Included here are specific colors for the sf-inverted-skin
+	- In order for the color to take on the sf-inverted-skin color version
+	  the class must be nest inside of the sf-inverted-skin class.
+
+	  Like this:
+		This gives you the default, non-inverted color.
+		.sf-muted-text {
+			color: rgba(0,0,0,.75) !important;
+		}
+
+		And this gives you muted text when for the inverted-skin
+		.sf-inverted-skin .sf-muted-text {
+			color: rgba(255,255,255,.25) !important;
+		}
+
+*/
+.sf-brand-color-text {
+	color: #2291d0 !important;
+
+}
+
+.sf-muted-text {
+	color: rgba(0,0,0,.5) !important;
+}
+.sf-inverted-skin .sf-muted-text {
+	color: rgba(255,255,255,.25) !important;
+}
+
+
+
+
+

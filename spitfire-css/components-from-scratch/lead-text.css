@@ -1,0 +1,53 @@
+/*
+	Note:
+	It might make sense to mix in the sf-inverted-skin logic on these lead-text
+	styles.
+
+*/
+
+/* # Lead text */
+	/* ## Default lead text */
+	.sf-lead-text {
+		/* Specify the font family. Commented out for the moment */
+		/* font-family: "Raleway-Medium"; */
+		font-size: 21px;
+		line-height: 115%;
+
+		margin-top: 21px;
+
+		color: rgba(0,0,0,1);
+	}
+
+	/* ## Inverted lead text */
+	.sf-inverted-lead-text {
+		/* Specify the font family. Commented out for the moment */
+		/* font-family: "Raleway-Medium"; */
+		font-size: 21px;
+		line-height: 150%;
+
+		margin-top: 21px;
+
+		color: rgba(255,255,255,1);
+	}
+
+	/* ## Lead text sizes */
+		/* ### Small lead text */
+		/* Note: Hmm.... not sure why we did it this way at first.
+			Let's try it a simplier way.
+		*/
+		/*
+		.sf-lead-text.sf-lead-text--small,
+		.sf-inverted-lead-text.sf-inverted-lead-text--small {
+			font-size: 18px;
+			line-height: 160%;
+		}
+		*/
+
+		.sf-lead-text--small,
+		.sf-inverted-lead-text--small {
+			font-size: 18px;
+			line-height: 160%;
+		}
+
+
+

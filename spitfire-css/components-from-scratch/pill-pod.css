@@ -1,0 +1,127 @@
+/*
+********
+********
+********
+*/
+/* >> PILL PADS: START
+***************************************************************************************************************/
+
+/*
+# Pill Pad Block */
+.sf-pill-pod-block {
+	display: block;
+	padding: 15px;
+	margin: 0;
+	border-radius: 10px;
+
+	margin-top: 25px;
+}
+
+.sf-pill-pod-block + .sf-pill-pod-block {
+	margin-top: 2px;
+}
+
+/* ## 	Pill Pad Block Modifiers */
+	/* Default */
+	.sf-pill-pod-block--default {
+		background-color: #f5f5f5;
+
+	}
+
+	/* Color */
+	.sf-pill-pod-block--positive {
+		background-color: #43a047 !important;
+	}
+	.sf-pill-pod-block--neutral {
+		background-color: #e58600 !important;
+	}
+	.sf-pill-pod-block--negative {
+		background-color: #d2020d !important;
+	}
+
+	/* Size */
+
+	/* Meaning */
+
+
+@media print {
+	.sf-pill-pod-block {
+		padding: 10px;
+		border-radius: 7px;
+	}
+
+	/* ## 	Pill Pad Block Modifiers */
+		/* Default */
+		.sf-pill-pod-block--default {
+			background-color: #f5f5f5;
+
+		}
+
+		/* Color */
+		.sf-pill-pod-block--positive {
+			background-color: #43a047 !important;
+		}
+		.sf-pill-pod-block--neutral {
+			background-color: #e58600 !important;
+		}
+		.sf-pill-pod-block--negative {
+			background-color: #d2020d !important;
+		}
+
+		/* Size */
+
+		/* Meaning */
+
+}
+
+
+/*
+# Pill Pad Inline-Block */
+.sf-pill-pod-inline-block {
+	display: inline-block;
+	padding: 15px;
+	margin: 0;
+	border-radius: 10px;
+
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+/* ## 	Pill Pad Inline-Block Modifiers */
+	/* # Default */
+	.sf-pill-pod-inline-block--default {
+		background-color: #f5f5f5;
+
+	}
+
+	/* # Color */
+	.sf-pill-pod-inline-block--positive {
+		background-color: #43a047 !important;
+	}
+	.sf-pill-pod-inline-block--neutral {
+		background-color: #e58600 !important;
+	}
+	.sf-pill-pod-inline-block--negative {
+		background-color: #d2020d !important;
+	}
+
+	/* # Size */
+
+	/* # Meaning */
+
+	/* Responsive */
+	@media (max-width: 769px) {
+		.sf-pill-pod-inline-block--responsive {
+			display: block;
+			margin: 0;
+			margin-top: 10px;
+		}
+	}
+
+/* PILL PODS: END
+***************************************************************************************************************/
+/*
+********
+********
+********
+*/

@@ -1,0 +1,52 @@
+/* # Alignment modifiers for mobile */
+@media (max-width: 769px) {
+
+	/* Text align left */
+	.sf-text-align-left-on-mobile {
+		text-align: left !important;
+	}
+
+	/* Float left */
+	.sf-float-left-on-mobile {
+		float: left !important;
+	}
+
+	/* Text align right */
+	.sf-text-align-right-on-mobile {
+		text-align: right !important;
+	}
+	/* Float right */
+	.sf-float-right-on-mobile {
+		float: right !important;
+	}
+
+
+	/* Display none */
+	.sf-display-none-on-mobile {
+		display: none !important;
+	}
+
+
+
+
+
+	/* */
+
+
+	/* Display block */
+	.sf-display-block-on-mobile {
+		display: block !important;
+	}
+
+	/* Button display block */
+	.sf-button-display-block-on-mobile {
+		display: block !important;
+		float: none !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+
+		margin-bottom: 15px;
+	}
+
+
+}

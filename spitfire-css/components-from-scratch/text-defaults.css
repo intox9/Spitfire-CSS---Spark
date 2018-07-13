@@ -1,0 +1,97 @@
+/*
+	This file defines the styles for default text.
+
+	- sf-skin:
+	is the default text settings for the dark text light background skin
+
+	- sf-inverted-skin:
+	is the default text settings for the light text dark background skin
+*/
+
+/* # Default settings */
+.sf-skin {
+	/* Specify the font family. Commented out for the moment */
+	/* font-family: "Raleway-Medium"; */
+
+	font-size: 16px;
+	color: rgba(0,0,0,.75);
+	line-height: 180%;
+
+	margin: 0;
+	padding: 0;
+}
+
+.sf-inverted-skin {
+	/* Specify the font family. Commented out for the moment */
+	/* font-family: "Raleway-Medium"; */
+
+	font-size: 16px;
+
+	color: rgba(255,255,255,.6);
+
+	line-height: 180%;
+
+	margin: 0;
+	padding: 0;
+
+}
+
+/* # Text settings */
+.sf-skin p,
+.sf-skin address {
+	/* Specify the font family. Commented out for the moment */
+	/* font-family: "Raleway-Medium"; */
+
+	font-size: 16px;
+	color: rgba(0,0,0,.75);
+	line-height: 180%;
+
+	margin: 0;
+	padding: 0;
+}
+
+.sf-skin p + p,
+.sf-skin address + address {
+	margin-top: 16px;
+}
+
+.sf-inverted-skin p,
+.sf-inverted-skin address {
+	/* Specify the font family. Commented out for the moment */
+	/* font-family: "Raleway-Medium"; */
+
+	font-size: 16px;
+	color: rgba(255,255,255,.6);
+	line-height: 180%;
+
+	margin: 0;
+	padding: 0;
+}
+
+.sf-inverted-skin p + p,
+.sf-inverted-skin address + address {
+	margin-top: 16px;
+}
+
+
+
+
+	/* Note: might not do the text this way. TBD */
+	/* ## Text knockout mode */
+		/* ### Positive text */
+
+		/* ### Negative text */
+		/*
+		.sf-inverted-text {
+			color: rgba(255,255,255,.75);
+		}
+		*/
+
+
+/* # Helpers for default settings */
+.sf-default-skin-text-color {
+	color: rgba(0,0,0,.75) !important;
+}
+.sf-default-inverted-skin-text-color {
+	color: rgba(255,255,255,.6) !important;
+}

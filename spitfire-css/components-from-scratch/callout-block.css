@@ -1,0 +1,104 @@
+/*
+********
+********
+********
+*/
+/* >> CALLOUT BLOCK: START
+***************************************************************************************************************/
+
+.sf-callout-block {
+
+	background-color: #ffffff;
+
+	display: block;
+
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.1);
+	border-width: 1px;
+
+	border-left-width: 5px;
+	border-left-color: #000000;
+
+	margin: 0;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	padding: 30px;
+}
+
+	/* # Adjusting top margin on paragrpahs and headings */
+	.sf-callout-block > p {
+		margin-top: 0px;
+	}
+
+	.sf-callout-block > p + p {
+		margin-top: 25px;
+	}
+
+	.sf-callout-block h1:first-of-type,
+	.sf-callout-block h2:first-of-type,
+	.sf-callout-block h3:first-of-type,
+	.sf-callout-block h4:first-of-type {
+		margin-top: 0;
+	}
+
+	/* # Adjusting color of headings */
+	.sf-callout-block h1,
+	.sf-callout-block h2,
+	.sf-callout-block h3,
+	.sf-callout-block h4 {
+		color: #0098de !important;
+	}
+
+
+
+/* # Modifiers for Callout Block */
+.sf-callout-block--info {
+	border-left-color: #0098de;
+
+}
+
+.sf-callout-block--branded {
+	border-left-color: #0098de;
+
+	/* background-image: url("../images/family-zone-logo__260x173__blue-logo__white-bg.png"); */
+
+	background-repeat: no-repeat;
+	/*background-position: right top;*/
+	background-size: 100px !important;
+
+	background-position: right 30px top 30px;
+
+	padding-right: 160px;
+
+	min-height: 130px;
+}
+
+
+
+
+@media (max-width: 769px) {
+
+	.sf-callout-block--branded {
+		padding-right: 30px;
+		padding-top: 110px;
+		background-position: left 30px top 30px;
+	}
+
+}
+
+
+
+
+
+
+
+
+/* CALLOUT BLOCK: END
+***************************************************************************************************************/
+/*
+********
+********
+********
+*/
