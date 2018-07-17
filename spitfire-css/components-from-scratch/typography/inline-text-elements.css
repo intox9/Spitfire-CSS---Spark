@@ -1,0 +1,13 @@
+.mark, mark {
+	padding: .2em;
+	background-color: #fcf8e3;
+}
+
+b, strong {
+	font-weight: bolder;
+}
+
+
+i, cite, em, var, address, dfn {
+	font-style: italic;
+}
